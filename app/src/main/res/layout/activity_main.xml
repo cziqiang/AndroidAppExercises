@@ -65,13 +65,41 @@
             android:text="GridView"
             android:textAllCaps="false"/>
 
-        <Button
-            android:id="@+id/btn_testview"
+        <HorizontalScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="TestView"
-            android:textAllCaps="false"
-            android:layout_marginTop="300dp"/>
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:text="A"
+                    android:textAllCaps="false"/>
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:text="B"
+                    android:textAllCaps="false"/>
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:text="C"
+                    android:textAllCaps="false"/>
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:text="D"
+                    android:textAllCaps="false"/>
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:text="E"
+                    android:textAllCaps="false"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+
 
     </LinearLayout>
 </ScrollView>
